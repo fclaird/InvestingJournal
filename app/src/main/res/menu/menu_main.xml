@@ -1,0 +1,25 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<item
+    android:id="@+id/delete"
+    android:orderInCategory="102"
+    android:title="delete"
+    app:showAsAction="always" />
+<item
+    android:id="@+id/add_entry"
+    android:icon="@drawable/add_entry"
+    android:title="AddEntry"
+    app:showAsAction="always"
+    android:orderInCategory="104"
+    />
+
+<item
+    android:id="@+id/app_bar_search"
+    android:icon="@drawable/ic_search_black_24dp"
+    app:showAsAction="always|collapseActionView"
+    android:orderInCategory="103"
+    android:title="Search" />
+
+</menu>
