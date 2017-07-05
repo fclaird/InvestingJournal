@@ -27,11 +27,11 @@ public class AddEntry extends AppCompatActivity {
     String dateTime,
              thesis,
              symbol;
+
     TextView showTicker,
              showDate;
+
     Stock stock;
-
-
 
 
     @Override
@@ -93,7 +93,6 @@ public class AddEntry extends AppCompatActivity {
                     } catch (Exception e) {
                     }
                 }
-
             }
         }
     }
@@ -106,9 +105,5 @@ public class AddEntry extends AppCompatActivity {
         alertDialog.setMessage(message);
         alertDialog.show();
     }
-
-
-
-
 }
 

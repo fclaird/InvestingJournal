@@ -87,10 +87,7 @@ public class SearchResult extends AppCompatActivity {
     }
 
 
-
     protected void readJournalEntry(int position) {
-
-
         if (position < targetList.length) {
             selectedEntry = targetList[position];
             File dir = getFilesDir();
@@ -106,9 +103,7 @@ public class SearchResult extends AppCompatActivity {
                     sb.append(line);
                     line = bufferedReader.readLine();
                 }
-
                 showAlertDialog(selectedEntry, sb.toString());
-
 
             } catch (IOException e) {
 
